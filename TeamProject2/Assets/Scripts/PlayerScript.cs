@@ -6,7 +6,6 @@ public class PlayerScript : MonoBehaviour
 {
     public float playerSpeed = 1f;
     public GameObject startingRoom;
-    public GameObject room;
     public GameObject positionCircle;
 
     public static GameObject activeRoom;
@@ -38,7 +37,6 @@ public class PlayerScript : MonoBehaviour
 
     private void FixedUpdate()
     {
-        room = activeRoom;
         rb.velocity = movement * playerSpeed * Time.fixedDeltaTime;
 
         playerPosition = rb.position;

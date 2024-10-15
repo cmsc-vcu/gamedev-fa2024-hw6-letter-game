@@ -5,6 +5,9 @@ using UnityEngine;
 public class ItemAreaScript : MonoBehaviour
 {
     public GameObject ItemPicture;
+    public GameObject InteractText;
+
+    public static bool canUpdate = true;
 
     private bool playerNearItem = false;
     private bool itemShown = false;
@@ -21,11 +24,19 @@ public class ItemAreaScript : MonoBehaviour
     {
         if(itemShown)
         {
-            Debug.Log("Showing Item");
             ItemPicture.SetActive(true);
+            InteractText.SetActive(false);
         }
         else
         {
+            if (playerNearItem)
+            {
+                InteractText.SetActive(true);
+            }
+            else if (canUpdate) 
+            { 
+                InteractText.SetActive(false); 
+            }
             ItemPicture.SetActive(false);
         }
     }
@@ -34,8 +45,8 @@ public class ItemAreaScript : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Player In item range");
             playerNearItem = true;
+            canUpdate = false;
         }
     }
 
@@ -45,6 +56,7 @@ public class ItemAreaScript : MonoBehaviour
         {
             playerNearItem = false;
             itemShown = false;
+            canUpdate = true;
         }
     }
 }
