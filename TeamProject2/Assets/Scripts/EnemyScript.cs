@@ -48,7 +48,7 @@ public class EnemyScript : MonoBehaviour
 
         if (activeRoom == PlayerScript.activeRoom)
         {
-            Debug.Log("In the same room");
+            //Debug.Log("In the same room");
             float angleDiff = Mathf.Atan2(PlayerScript.playerPosition.y - transform.position.y,
                 PlayerScript.playerPosition.x - transform.position.x);
 
@@ -57,7 +57,7 @@ public class EnemyScript : MonoBehaviour
         }
         else if(true) // If not go to room they are in
         {
-            Debug.Log("Searching");
+            //Debug.Log("Searching");
             timeLastSearched = Time.time;
             path = GetToRoom(activeRoom, PlayerScript.activeRoom);
             
@@ -104,7 +104,7 @@ public class EnemyScript : MonoBehaviour
                 }
             }
 
-            Debug.Log("End Room transform: " + path[0].transform.position);
+            //Debug.Log("End Room transform: " + path[0].transform.position);
 
             movement = new Vector2(Mathf.Cos(angleDiff), Mathf.Sin(angleDiff));
         } else
@@ -153,7 +153,7 @@ public class EnemyScript : MonoBehaviour
         path.Add(startRoom);
 
         RoomScript startRoomScript = startRoom.GetComponent<RoomScript>();
-        Debug.Log("Start Room transform: " + startRoom.transform.position);
+        //Debug.Log("Start Room transform: " + startRoom.transform.position);
         if (startRoomScript.TopRoom == endRoom)
         {
             path.Add(startRoomScript.TopRoom);

@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - PlayerCircle
   - EnemyCircle
+  - Item
   layers:
   - Default
   - TransparentFX

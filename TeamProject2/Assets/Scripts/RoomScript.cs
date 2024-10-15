@@ -27,12 +27,12 @@ public class RoomScript : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("PlayerCircle"))
         {
-            Debug.Log("Player Entered new Room");
+            //Debug.Log("Player Entered new Room");
             PlayerScript.activeRoom = gameObject;
         } 
         else if (collision.gameObject.CompareTag("EnemyCircle"))
         {
-            Debug.Log("Enemy Entered new Room");
+            //Debug.Log("Enemy Entered new Room");
             EnemyScript.activeRoom = gameObject;
         }
     }
