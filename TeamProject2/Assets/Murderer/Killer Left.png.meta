@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e12508789290ebc4f92f4a5a174b91f4
+guid: 1b72348503c0b964bb0f3854aa95de6c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,13 +136,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mc_Forward_Walk__0
+      name: Untitled_Artwork 2_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 56
-        width: 49
-        height: 82
+        x: 37
+        y: 6
+        width: 71
+        height: 136
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e253bb75d6e21ed42a283214fb4a9eba
-      internalID: -28086010
+      spriteID: 033ade1bf2a1b89448e532d94cad0c7f
+      internalID: -292699217
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mc_Forward_Walk__1
+      name: Untitled_Artwork 2_1
       rect:
         serializedVersion: 2
-        x: 58
-        y: 56
-        width: 49
-        height: 82
+        x: 133
+        y: 6
+        width: 71
+        height: 138
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adbc3e2392486ed479e9b683e71eb932
-      internalID: 392511670
+      spriteID: 5658b20d6c4509344a4f8e58c1932d5e
+      internalID: -112482033
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mc_Forward_Walk__2
+      name: Untitled_Artwork 2_2
       rect:
         serializedVersion: 2
-        x: 120
-        y: 56
-        width: 49
-        height: 82
+        x: 228
+        y: 4
+        width: 76
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,29 +192,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2350825eae95b9b429b650ddfa38a989
-      internalID: 839661413
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mc_Forward_Walk__3
-      rect:
-        serializedVersion: 2
-        x: 188
-        y: 56
-        width: 49
-        height: 82
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d05b40c66ddcd84891c8a3067ab2e36
-      internalID: -314025717
+      spriteID: 46ef018f37a442c4f8cfb8901b310ad5
+      internalID: 1420077333
       vertices: []
       indices: 
       edges: []
@@ -230,10 +209,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Mc_Forward_Walk__0: -28086010
-      Mc_Forward_Walk__1: 392511670
-      Mc_Forward_Walk__2: 839661413
-      Mc_Forward_Walk__3: -314025717
+      Untitled_Artwork 2_0: -292699217
+      Untitled_Artwork 2_1: -112482033
+      Untitled_Artwork 2_2: 1420077333
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -150,8 +150,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f97ee7b828d95f4ba6db2516d192722
-      internalID: 1513771465
+      spriteID: d7bb7407fd0ac834885cf097934b69c3
+      internalID: 6150967
       vertices: []
       indices: 
       edges: []
@@ -171,8 +171,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d378f358fdc7f1542be631e69c235f3c
-      internalID: 1258796741
+      spriteID: 79daf0ec8f88ef04ea49ea40835b81fd
+      internalID: -685170051
       vertices: []
       indices: 
       edges: []
@@ -192,8 +192,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1be01c3808f2444da230be58a33c000
-      internalID: 1914944888
+      spriteID: 7cab530ac9b0f7545bae6140b585902f
+      internalID: -577775667
       vertices: []
       indices: 
       edges: []
@@ -213,8 +213,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fdc56fb3a652a842876de028cff7f2e
-      internalID: 1850307235
+      spriteID: 097391da73e55044aa567a011bc912da
+      internalID: -151235348
       vertices: []
       indices: 
       edges: []
@@ -230,10 +230,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Mc_Walking_To_The_Left_0: 1513771465
-      Mc_Walking_To_The_Left_1: 1258796741
-      Mc_Walking_To_The_Left_2: 1914944888
-      Mc_Walking_To_The_Left_3: 1850307235
+      Mc_Walking_To_The_Left_0: 6150967
+      Mc_Walking_To_The_Left_1: -685170051
+      Mc_Walking_To_The_Left_2: -577775667
+      Mc_Walking_To_The_Left_3: -151235348
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

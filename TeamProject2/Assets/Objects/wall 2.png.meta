@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1b72348503c0b964bb0f3854aa95de6c
+guid: ab6b2979da12f05448538a359dabf3a7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,64 +136,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Untitled_Artwork 2_0
+      name: Untitled_Artwork 1_0
       rect:
         serializedVersion: 2
-        x: 37
+        x: 60
         y: 4
         width: 77
         height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35c97edf9a0ee754ebd80a85e785d403
-      internalID: 770288038
+      spriteID: 95cf636a267336d44aefc6131ee891fe
+      internalID: 1171649778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 2_1
+      name: Untitled_Artwork 1_1
       rect:
         serializedVersion: 2
-        x: 133
+        x: 160
         y: 4
-        width: 76
+        width: 71
         height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cbaa3db0441aec4187e6c560721f0a4
-      internalID: 1085964790
+      spriteID: d5c559956f1e9b54fac0cf5766ee3520
+      internalID: 109930202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork 2_2
+      name: Untitled_Artwork 1_2
       rect:
         serializedVersion: 2
-        x: 228
+        x: 256
         y: 4
-        width: 76
+        width: 71
         height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c61e278b2d515f144952f9e9dffc69ae
-      internalID: -1748445529
+      spriteID: 1bb114736c4e11d48aaabfdd2b6331a0
+      internalID: -36009895
       vertices: []
       indices: 
       edges: []
@@ -209,9 +209,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Untitled_Artwork 2_0: 770288038
-      Untitled_Artwork 2_1: 1085964790
-      Untitled_Artwork 2_2: -1748445529
+      Untitled_Artwork 1_0: 1171649778
+      Untitled_Artwork 1_1: 109930202
+      Untitled_Artwork 1_2: -36009895
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
