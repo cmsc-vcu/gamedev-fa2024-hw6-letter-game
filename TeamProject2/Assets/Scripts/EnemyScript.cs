@@ -9,16 +9,15 @@ using UnityEngine.Audio;
 
 public class EnemyScript : MonoBehaviour
 {
-    public float enemySpeed = 1f;
-    public float searchCooldown = 1000f;
-    public GameObject startingRoom;
-    public GameObject positionCircle;
-    public AudioClip walkNoise;
-    public AudioClip runNoise;
-    public float walkNoiseTime = 0.5f;
-    public float runNoiseTime = 0.5f;
-    public float walkNoiseBlend = 0.95f;
-    public float runNoiseBlend = 0.5f;
+    [SerializeField] public float enemySpeed = 75;
+    [SerializeField] public float searchCooldown = 3;
+    [SerializeField] public GameObject startingRoom;
+    [SerializeField] public GameObject positionCircle;
+    [SerializeField] public AudioClip walkNoise;
+    [SerializeField] public float walkNoiseTime = 0.75f;
+    [SerializeField] public float runNoiseTime = 0.325f;
+    [SerializeField] public float walkNoiseBlend = 0.95f;
+    [SerializeField] public float runNoiseBlend = 0.5f;
 
     public static GameObject activeRoom;
     public static bool reachedMiddle = false;
@@ -26,6 +25,7 @@ public class EnemyScript : MonoBehaviour
     private Rigidbody2D rb;
     private Collider2D col;
     private AudioSource audioSource;
+    private Animator animator;
     private Vector2 movement;
     private float timeLastSearched = 0f;
     private float timeLastWalkNoise = 0f;
@@ -43,6 +43,8 @@ public class EnemyScript : MonoBehaviour
 
         audioSource = GetComponent<AudioSource>();
         audioSource.clip = walkNoise;
+
+        animator = GetComponent<Animator>();
 
         activeRoom = startingRoom;
 
@@ -67,7 +69,6 @@ public class EnemyScript : MonoBehaviour
                 PlayerScript.playerPosition.x - transform.position.x);
 
             movement = new Vector2(Mathf.Cos(angleDiff), Mathf.Sin(angleDiff));
-            audioSource.clip = runNoise;
             audioSource.spatialBlend = runNoiseBlend;
         }
         else // If not go to room they are in
@@ -82,7 +83,9 @@ public class EnemyScript : MonoBehaviour
             movement = getMovementVector();
             audioSource.clip = walkNoise;
             audioSource.spatialBlend = walkNoiseBlend;
-        } 
+        }
+
+        Animate();
     }
 
     private void FixedUpdate()
@@ -94,6 +97,10 @@ public class EnemyScript : MonoBehaviour
         {
             speedBoost = 2.0f;
             audioTime = runNoiseTime;
+            animator.speed = 1.5f;
+        } else
+        {
+            animator.speed = 1.0f;
         }
 
         rb.velocity = movement * enemySpeed * speedBoost * Time.fixedDeltaTime;
@@ -110,6 +117,12 @@ public class EnemyScript : MonoBehaviour
     }
 
     #region private functions
+
+    private void Animate()
+    {
+        animator.SetFloat("MoveX", movement.x);
+        animator.SetFloat("MoveY", movement.y);
+    }
     private List<GameObject> GetToRoom(GameObject startRoom, GameObject endRoom)
     {
         List<GameObject> list = new List<GameObject>();
