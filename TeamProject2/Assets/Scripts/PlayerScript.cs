@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerScript : MonoBehaviour
 {
@@ -92,5 +93,13 @@ public class PlayerScript : MonoBehaviour
         animator.SetFloat("LastMoveX", lastMoveDirection.x);
         animator.SetFloat("LastMoveY", lastMoveDirection.y);
         Debug.Log(lastMoveDirection);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.CompareTag("Enemy"))
+        {
+            SceneManager.LoadScene("GameOver");
+        }
     }
 }
