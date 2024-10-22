@@ -78,7 +78,7 @@ public class PlayerScript : MonoBehaviour
         else if(!walking) 
         {
         
-            audioSource.Stop();
+            audioSource.Pause();
         }
 
         walkingLastFrame = walking;

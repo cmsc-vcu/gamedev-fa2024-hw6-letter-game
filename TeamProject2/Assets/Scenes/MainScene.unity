@@ -1624,7 +1624,7 @@ MonoBehaviour:
   playerSpeed: 250
   startingRoom: {fileID: 146842601}
   positionCircle: {fileID: 896907779}
-  walkNoise: {fileID: 0}
+  walkNoise: {fileID: 8300000, guid: 70c831cf03a9abd4cbb066df885d2517, type: 3}
   walkNoiseTime: 0.5
   walkNoiseBlend: 0.95
 --- !u!50 &897032237
@@ -1666,7 +1666,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.2
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
