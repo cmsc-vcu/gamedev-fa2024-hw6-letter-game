@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -134,7 +134,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Mc_Walking_To_The_Right_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 15
+        width: 68
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875753110458a1a42bd64a3f03f2b739
+      internalID: -1597210766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mc_Walking_To_The_Right_1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 14
+        width: 68
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375ff98e1b6c2b84b9fd9c339ec5761b
+      internalID: 1541355736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mc_Walking_To_The_Right_2
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 15
+        width: 68
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478a4db9fc4ef934bbdccd21506e3d23
+      internalID: -441388799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mc_Walking_To_The_Right_3
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 15
+        width: 68
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3c0a420ab7ab746ba63cfa62271111
+      internalID: 1696496537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +229,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Mc_Walking_To_The_Right_0: -1597210766
+      Mc_Walking_To_The_Right_1: 1541355736
+      Mc_Walking_To_The_Right_2: -441388799
+      Mc_Walking_To_The_Right_3: 1696496537
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e12508789290ebc4f92f4a5a174b91f4
+guid: ab6b2979da12f05448538a359dabf3a7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -134,91 +134,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Mc_Forward_Walk__0
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 56
-        width: 49
-        height: 82
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e253bb75d6e21ed42a283214fb4a9eba
-      internalID: -28086010
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mc_Forward_Walk__1
-      rect:
-        serializedVersion: 2
-        x: 58
-        y: 56
-        width: 49
-        height: 82
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: adbc3e2392486ed479e9b683e71eb932
-      internalID: 392511670
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mc_Forward_Walk__2
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 56
-        width: 49
-        height: 82
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2350825eae95b9b429b650ddfa38a989
-      internalID: 839661413
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mc_Forward_Walk__3
-      rect:
-        serializedVersion: 2
-        x: 188
-        y: 56
-        width: 49
-        height: 82
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d05b40c66ddcd84891c8a3067ab2e36
-      internalID: -314025717
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -229,11 +145,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Mc_Forward_Walk__0: -28086010
-      Mc_Forward_Walk__1: 392511670
-      Mc_Forward_Walk__2: 839661413
-      Mc_Forward_Walk__3: -314025717
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
