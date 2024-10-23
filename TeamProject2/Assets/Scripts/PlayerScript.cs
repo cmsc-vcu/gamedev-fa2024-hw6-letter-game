@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -13,6 +11,7 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] public float walkNoiseBlend = 0.95f;
 
     public static GameObject activeRoom;
+    public static bool hasKey;
     public static Vector2 playerPosition;
 
     private Rigidbody2D rb;
@@ -23,6 +22,8 @@ public class PlayerScript : MonoBehaviour
     private Vector2 movement;
     private bool walking = false;
     private bool walkingLastFrame = false;
+    private int lives = 3;
+    private float timeLastHit;
 
     // Start is called before the first frame update
     void Start()
@@ -42,6 +43,11 @@ public class PlayerScript : MonoBehaviour
         activeRoom = startingRoom;
 
         playerPosition = rb.position;
+
+        lives = 3;
+
+        timeLastHit = Time.time;
+        hasKey = false;
     }
 
     // Update is called once per frame
@@ -92,14 +98,25 @@ public class PlayerScript : MonoBehaviour
 
         animator.SetFloat("LastMoveX", lastMoveDirection.x);
         animator.SetFloat("LastMoveY", lastMoveDirection.y);
-        Debug.Log(lastMoveDirection);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.CompareTag("Enemy"))
         {
-            SceneManager.LoadScene("GameOver");
+            if(Time.time - timeLastHit < 3)
+            {
+                return;
+            }
+
+            if(lives == 1)
+            {
+                SceneManager.LoadScene("GameOver");
+                return;
+            }
+
+            timeLastHit = Time.time;
+            lives--;
         }
     }
 }

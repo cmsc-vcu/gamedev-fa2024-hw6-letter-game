@@ -1,11 +1,5 @@
-using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using TreeEditor;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Audio;
 
 public class EnemyScript : MonoBehaviour
 {
@@ -97,7 +91,7 @@ public class EnemyScript : MonoBehaviour
         {
             speedBoost = 2.0f;
             audioTime = runNoiseTime;
-            animator.speed = 1.5f;
+            animator.speed = 2.0f;
         } else
         {
             animator.speed = 1.0f;
