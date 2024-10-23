@@ -19,7 +19,7 @@ public class KeyScript : MonoBehaviour
     private void FixedUpdate()
     {
         KeyUI.SetActive(PlayerScript.hasKey);
-        GotKeyText.SetActive(playerNearby && GotKeyText && !alreadyGotKey);
+        GotKeyText.SetActive(playerNearby && PlayerScript.hasKey && !alreadyGotKey);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
