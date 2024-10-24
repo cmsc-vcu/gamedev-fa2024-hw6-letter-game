@@ -4,6 +4,7 @@ public class ItemAreaScript : MonoBehaviour
 {
     public GameObject ItemPicture;
     public GameObject InteractText;
+    public GameObject NoteText;
 
     public static bool canUpdate = true;
 
@@ -24,6 +25,7 @@ public class ItemAreaScript : MonoBehaviour
         {
             ItemPicture.SetActive(true);
             InteractText.SetActive(false);
+            NoteText.SetActive(true);
         }
         else
         {
@@ -36,6 +38,7 @@ public class ItemAreaScript : MonoBehaviour
                 InteractText.SetActive(false); 
             }
             ItemPicture.SetActive(false);
+            NoteText.SetActive(false);
         }
     }
 
