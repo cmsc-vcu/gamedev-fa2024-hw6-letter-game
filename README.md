@@ -1,17 +1,15 @@
-# Elevator Wipeout - Sidecars and PBRs - Fall 2024
+# Letter Game - Fall 2024
 
-Elevator Wipeout is a save-the-world game where the player does all they can to prevent bad guys from destroying a space elevator.  If the bad guys win, the earth
-is destroyed in a spectacular, slow-motion extravaganza.
+Letter Game is about a man who was abducted by a murderer, and has to find a way to leave the house.
 
 ## Authors
 
-- John Leonard (jdleonard@vcu.edu)
-- Jason Bennett (jebennett@vcu.edu)
+- Zach Dellimore
+- Kaela Botts
 
 ## Game Description
 
-Provide more details of the game.  Discuss any unique game play features.  Why is
-this game different from others?  What is the goal for playing?
+In this game, the player reads the letters scattered around the house for clues, in order to find the key to escape the house. This game is inspired by rpgmaker games, in which it's a 48 bit pixel style horror game.
 
 ## Important Links
 
@@ -27,24 +25,4 @@ this game different from others?  What is the goal for playing?
 ./website/ - this folder contains files associated with the *gh-pages* created for this game.
 
 ./docs/ - Don't edit files in this folder directly.  Edit the source documents in the *./website* folder, then use `quarto` to render the documents to HTML and store them in the *./docs* folder.
-
-
-## How to modify this README.md
-
-Certainly you want to customize the info above this section to make it your own. But, please don't stop there.
-
-To learn more about writing good README.md files, see:
-
-<https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/>
-
-This is a scaffold project. We’ll be providing scaffolds throughout the
-semester to get you working faster, and to make grading much easier for
-the TA team.
-
-This repository supports Homework 6. Here are the homework specs and
-tasks:
-
-<https://virginiacommonwealth.instructure.com/courses/105808/assignments/952983>
-
-Good luck!
 
