@@ -1,6 +1,6 @@
 # Letter Game - Fall 2024
 
-Letter Game is about a man who was abducted by a murderer, and has to find a way to leave the house.
+Letter Game is about a man who is abducted by a murderer, and has to find a way to leave the house.
 
 ## Authors
 
