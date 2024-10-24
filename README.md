@@ -13,7 +13,7 @@ In this game, the player reads the letters scattered around the house for clues,
 
 ## Important Links
 
-- Game URL: < ... >
+- Game URL: < https://play.unity.com/en/games/3f6c5170-7f3d-4223-8962-a4ab623db4bf/test-build-for-horror-game >
 - GITHUB URL: < ... >
 - Gameplay Video URL: < ... >
 - Google Doc writeup: < ... >
