@@ -15,8 +15,8 @@ In this game, the player reads the letters scattered around the house for clues,
 
 - Game URL: < https://play.unity.com/en/games/3f6c5170-7f3d-4223-8962-a4ab623db4bf/test-build-for-horror-game >
 - GITHUB URL: < https://github.com/cmsc-vcu/gamedev-fa2024-hw6-letter-game/blob/main/README.md >
-- Gameplay Video URL: < ... >
-- Google Doc writeup: < ... >
+- Gameplay Video URL: < https://docs.google.com/presentation/d/1ltksFZTwf20DIA7OjnrTME19xqIes-ApCHOYcnqLO3c/edit?usp=sharing >
+- Google Doc writeup: < https://docs.google.com/presentation/d/1ltksFZTwf20DIA7OjnrTME19xqIes-ApCHOYcnqLO3c/edit?usp=sharing>
 
 ## Files in the repository
 
